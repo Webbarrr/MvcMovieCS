@@ -57,6 +57,7 @@ namespace MvcMovie
             {
                 routes.MapRoute(
                     name: "default",
+                    // webAddress.com/controller/method/(optional)id
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
         }
